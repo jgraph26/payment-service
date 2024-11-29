@@ -12,9 +12,9 @@ spring:
       resourceserver:
         jwt:
 paypal:
-  clientId: AU0nJOUpFza2rkAqZdbaMxoUxGJqPc0YBPK59qiSsAQLgXBYCiZgz23Wi9-vj-EwHam4jGCN68YNvePQ
-  clientSecret: EN2PrI8qAoEH6LBwjV-jYPdzrMLvU0VDGNflSrqnA2y9XQqfeNHq8B5HwCaM7whcqTS0R1yKpdrc3chO
-  mode: live
+  clientId: AZihTqcVFX8MUNyRnI1cst_rAn7-lo5zgF3-CxCz9c1SZgXs7ESMzMnYvlcNGE_sdJNUCX3IIl1bGG9h
+  clientSecret: EOBAgezq1iUsMxfKNKPRMGgTgOCKbjT2iDnTSmrfZif0U1gJblBrdz9-7MnhSRA5QjQNDhayYoXxqy_Z
+  mode: sandbox
 security:
   corsAllowedOrigins: "http://localhost:8181"
   corsAllowedMethods: "GET, POST, PUT, DELETE"

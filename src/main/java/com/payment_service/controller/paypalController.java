@@ -21,8 +21,8 @@ public class paypalController {
         return ResponseEntity.ok(payPalService.createOrder(cart));
     }
 
-    @PostMapping("/capture-order")
-    public ResponseEntity<Order> captureOrder(@RequestParam String orderID) throws IOException, ApiException {
+    @PostMapping("/capture-order/{orderID}")
+    public ResponseEntity<Order> captureOrder(@PathVariable String orderID) throws IOException, ApiException {
         return ResponseEntity.ok(payPalService.captureOrder(orderID));
     }
 }

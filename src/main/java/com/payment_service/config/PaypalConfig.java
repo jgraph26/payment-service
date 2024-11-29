@@ -28,7 +28,7 @@ public class PaypalConfig {
                         .responseConfig(logConfigBuilder -> logConfigBuilder.headers(true)))
                 .httpClientConfig(configBuilder -> configBuilder
                         .timeout(0))
-                .environment(Environment.PRODUCTION)
+                .environment(Environment.SANDBOX)
                 .clientCredentialsAuth(new ClientCredentialsAuthModel.Builder(
                         clientId,
                         clientSecret)
